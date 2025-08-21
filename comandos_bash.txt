@@ -1,8 +1,10 @@
 ls -> Lista arquivos de ums pasta
 cd -> move entre os diretórios
-pwd -> mosta o path atual
+pwd -> mostra o path atual
 clear -> limpa a tela do bash
 . -> referencia a pasta atual
 .. -> referencia a pasta mãe (uma pasta a cima)
  ls -a -> Lista todos os arquivos incluindo os arquivos ocultos
 cat -> mostra o que tem dentro de um arquivo
+mkdir -> cria um diretório
+rm -> remove um arquivo ou diretório
