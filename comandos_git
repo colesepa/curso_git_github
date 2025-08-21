@@ -5,6 +5,7 @@ git add -> adiciona arquivos para serem commitados
 git add . -> adiciona a pasta inteira para ser comitado
 git add * -> adiciona todos os arquivos de uma pasta
 git add *.txt -> adiciona todos dos arquivos com extensão txt
+git log -> mostra o histório de alterações de todos arquivos
 
 
 Fluxo de Trablhos:
