@@ -7,6 +7,10 @@ git add * -> adiciona todos os arquivos de uma pasta
 git add *.txt -> adiciona todos dos arquivos com extensão txt
 git log -> mostra o histório de alterações de todos arquivos
 git diff . -> mostra todas as alterações trackeadar nos arquivos pelo git
+git branch  -> lista as branchs existentes
+git branch -d <nome> -> deleta a branch selecionado (nao pode estar ativa)
+git checkout <nome> -> Caso nao tenha, cria uma nova branch  
+git checkout -b <nome> -> cria uma nova branch
 
 
 Fluxo de Trablhos:
