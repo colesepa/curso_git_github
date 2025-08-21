@@ -1,0 +1,4 @@
+nano -> abre o editor de texto nano
+
+crtl + o -> Salva o arquivos
+crtl + x -> sai do nao
