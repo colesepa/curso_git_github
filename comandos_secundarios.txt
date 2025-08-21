@@ -1,1 +1,3 @@
-comandos secundários do git
+git checkout -b <nome da brench> -> muda para uma brench, se ela não existir ela vai criar um nova brench
+git checkout <master/main> -> volta para a brench principal
+git merge <nome da brench> -> move alteraçõs dos arquivos de uma brench para a brench atual
