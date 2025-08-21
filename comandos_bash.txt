@@ -8,3 +8,4 @@ clear -> limpa a tela do bash
 cat -> mostra o que tem dentro de um arquivo
 mkdir -> cria um diretório
 rm -> remove um arquivo ou diretório
+rm -rf -> remove de forma recursiva e forçada todos os diretorios da pasta
