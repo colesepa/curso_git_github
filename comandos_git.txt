@@ -9,8 +9,14 @@ git log -> mostra o histório de alterações de todos arquivos
 git diff . -> mostra todas as alterações trackeadar nos arquivos pelo git
 git branch  -> lista as branchs existentes
 git branch -d <nome> -> deleta a branch selecionado (nao pode estar ativa)
-git checkout <nome> -> Caso nao tenha, cria uma nova branch  
+git checkout <nome> -> Muda para uma nova branch especificada, caso nao tenha o git mostrará um erro  
 git checkout -b <nome> -> cria uma nova branch
+git merge <nova_branch> -> Mescla os arquivos de uma outra branch
+git pull origin <https...> -> Puxa os aquivos de uma repostiorio online para o repositorio local
+	git fetch origin -> 
+	git merge <nome_da_branch> ->
+git clone <https...> -> Clona um repositororio online para o repositório local
+git push origin <nome_da_branch> -> Envia para o repositorio online aletrações feitas no repositorio loca.
 
 
 Fluxo de Trablhos:
