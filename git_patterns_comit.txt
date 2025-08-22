@@ -1,0 +1,74 @@
+O padrão de convenção dos Commits apresentam as seguintes estruturas:
+
+<Tipo>(Escopo da alteração (Opicional)): <Descrição> 
+
+    [Mensagem de corpo (Opicional)]
+
+    [Mensagem final (Opicional)]
+
+Em geral as mensagens/descrições de um commit devem ser feitas no modo imperativo, dando uma ideia do que irá acontecer se o commit for aceito.
+A exemplificar devemos fazer a seguinte frase: "Se esse commmit for aceito ele irá -> "Adicionar doc de git patterns"
+
+Alguns Types (Tipos) de commit:
+
+    test: Indica um commit de adição de teste unitário;
+
+    feat: Indica o desenvolvimento ou alteração em um feature do projeto. A exemplificar: Adição da possibilidade de manioulação de shortlist no dashboard.
+
+    refactor: Usado quando há alguma melhoria no código que não impacte na sua funcionalidade ou regra de negocio. A exemplificar uma refatoração de uma função que retorna o mesmo valor final.
+
+    style: Usado quando há mudanças na formatação interna do código. A exemplificar: correções de identação, exclusão de comentários...
+
+    fix: Usados em correções de erros. A exemplificar: Ao selecionar uma temporada, a tabela não filtrava os jogadores por temporada.
+
+    chore: Usados em mudanças que não afetam diretamente o projeto. A exemplificar: alteração no TOML, .gitignore....
+
+    docs: Usados quando há mudanaças na documentação do projeto. A exemplificar: Nessa alteração estou adicionando um arquivo que incrementa "documentações" no repositorio
+
+    build: Usados quando há alterações que mudam as dependencias de projeto. A exemplificar: Mudou a versão de dependencias do dash-bootstrap de 10.2.1 para 11.0.0
+
+    perf: Usado em alterções que melhoram a performace de processamento do programa.
+
+    ci: Usado em alterações de arquivos de configuração CI. <<Estudar melhor>> 
+
+    revert: indica a reversão de um commit anteior.
+
+
+
+
+
+
+Versionamento Semânitco
+
+    vX.Y.Z -> Padrão de Versionamento
+
+    X --> Mejor/Maior - Versões de alterações principais, onde podem trazer incompatibilidades com versões anteriores
+
+    Y --> Minor/Menores - Versões de alterações secundárias, alterando/adicionando funcionalidades sem prejudicar a compatibilidade de versões anteriores
+
+    Z --> Patch/Correção - Versão de pequenas alterações/correções 
+
+
+    Na versão incial de desenvolvimento, da API/Programa, deve-se considerar sempre 0.y.z, uma vez que a aplicação apresenta-se instável e pode ocorrer doversas mudanças na aplicação. 
+    Quando se altera uma "Minor",  DEVE-SE, zerar o Patch 1.0.25 ->> 1.1.0 
+    Da mesma forma quando se altera uma "Major", DEVE-SE, zerar a "Minor" e o "Patch". 1.2.10 ->> 2.0.0
+    
+
+
+
+
+
+# Palavras chaves para versionamentos e recomendações.
+
+    MUST -> DEVE/TEM: Ideia de obrigação em relação a uma recomendação - "OBRIGADO"
+
+    MUST NOT ->  NÃO DEVE/NÃO TEM: Ideia de imposição negativa a uma determinada remendação - "PROIBIDO"
+
+    SHOULD -> DVERIA: Idea de RECOMENDAÇÃO sugerida - "É MELHOR FAZER..."/"RECOMENDADO"
+
+    SHOULD NOT -> NÃO DVERIA: Idea de RECOMENDAÇÃO de se fazer - "É MELHOR FAZER..."/"NÃO RECOMENDADO"
+
+    MAY or OPTIONAL -> TALVEZ/OPICIONAL : Ideia de "Se quiser, mas se não quiser, ta tudo bem também."
+
+
+
