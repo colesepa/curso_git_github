@@ -1,4 +1,4 @@
-git init -> cria/inicia um repositorio GIT
+egit init -> cria/inicia um repositorio GIT
 git status -> mostra os status de cada trabalho, com os arquivos a serem commitados
 git commit -m "msg" -> faz commit dos arquivos alterados
 git add -> adiciona arquivos para serem commitados 
@@ -12,12 +12,18 @@ git branch -d <nome> -> deleta a branch selecionado (nao pode estar ativa)
 git checkout <nome> -> Muda para uma nova branch especificada, caso nao tenha o git mostrará um erro  
 git checkout -b <nome> -> cria uma nova branch
 git merge <nova_branch> -> Mescla os arquivos de uma outra branch
-git pull origin <https...> -> Puxa os aquivos de uma repostiorio online para o repositorio local
-	git fetch origin -> 
-	git merge <nome_da_branch> ->
+git pull origin <https...> -> Puxa os aquivos de uma repostiorio online para o repositorio local e aplica 
+				instantâneamente ao repositorio local	
+	git fetch origin -> Apenas baixa as alterações do repositório remoto e deixa no cach do git 
+	git merge <nome_da_branch> -> Juntas duas branchs
 git clone <https...> -> Clona um repositororio online para o repositório local
 git push origin <nome_da_branch> -> Envia para o repositorio online aletrações feitas no repositorio loca.
+git branch -d <nome_da_branch> -> deleta a branch.
+git branch -r -> Lista todas as branchs do  remoto
+git fetch --prune -> Sicroniza as branchs do remoto e apaga as referencias das branchs deletadas
 
+git clone <https> ou <ssh>
+git push --set-upstream origin feat/graphic01 -> Publica a branch no remoto(caso ela seja criada localmente)
 
 Fluxo de Trablhos:
 
